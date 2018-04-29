@@ -1,3 +1,30 @@
-baseURL = "http://example.org/"
+baseURL = "http://jaconsta.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jaconsta"
+theme = "crab"
+
+[params]
+description = "Developer, engineer, entrepeneur."
+logoimage = "images/gecko_logo_r_120.png"
+copyright = " - jaconsta _-_ CO"
+
+[[menu.main]]
+weight = 1
+name = "Home"
+url = "/"
+
+[[menu.main]]
+weight = 2
+name = "Whoami"
+url = "/me/"
+
+[[menu.main]]
+weight = 3
+name = "Blog"
+url = "/blog/"
+
+[[menu.main]]
+weight = 4
+name = "Contact"
+url = "/contact/"
+
