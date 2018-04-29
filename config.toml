@@ -28,3 +28,10 @@ weight = 4
 name = "Contact"
 url = "/contact/"
 
+# Hugo >= 0.33 is needed to get uglyURLs per section.
+[uglyURLs]
+  blog = true
+
+[permalinks]
+blog = "/:year/:month/:day/:slug/"
+
