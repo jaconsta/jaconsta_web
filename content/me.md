@@ -16,7 +16,7 @@ Content quick-links:
 ---
 
 ## Personal projects
-- Fibonnacci based web clock.
+- Fibonnacci based web clock. [Go =>](/fiboclock/)
 
 ![Fibbo_clock](/images/fibbo_clock.jpg)
 

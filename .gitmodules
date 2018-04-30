@@ -1,3 +1,6 @@
 [submodule "themes/crab"]
 	path = themes/crab
 	url = https://github.com/thomasheller/crab
+[submodule "layouts/fiboclock"]
+	path = layouts/fiboclock
+	url = https://github.com/jaconsta/fibonacci_clock_web.git
