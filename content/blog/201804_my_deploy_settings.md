@@ -1,5 +1,5 @@
 ---
-title: "Deploying to a shared hosting non-default folder."
+title: "Deploying to a shared hosting non-default folder"
 date: 2018-04-29T19:09:51-05:00
 draft: false
 ---
