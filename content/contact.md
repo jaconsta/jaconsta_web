@@ -25,7 +25,7 @@ I recommend the social networks. -- >
 
 ### Leave a message
 
-<form class="smart-green" action="https://formspree.io/contact@jaconsta.com" method="post">
+<form class="smart-green" action="https://formspree.io/contact_us@jaconsta.com" method="post">
 	<div>
 		<div class="row">
 			<div class="6u 12u$(mobile)">
