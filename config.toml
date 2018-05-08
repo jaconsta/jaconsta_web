@@ -6,7 +6,7 @@ theme = "crab"
 [params]
 description = "Developer, engineer, entrepeneur."
 logoimage = "images/gecko_logo_r_120.png"
-copyright = " - jaconsta _-_ CO"
+copyright = " - jaconsta _-_ CO _-_ © CC BY-NC 4.0"
 
 [[menu.main]]
 weight = 1
