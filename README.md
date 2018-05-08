@@ -71,3 +71,5 @@ Attribution-NonCommercial 4.0 International ![CC BY-NC 4.0](https://i.creativeco
 [More info](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Do you need a *NonCommercial* permission? Contact me. I'll probably agree on that.
+
+[CC_BT-NC_text]: https://github.com/creativecommons/legalcode/blob/master/by-nc_4.0.txt
