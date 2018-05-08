@@ -66,7 +66,7 @@ Sure! Submit a PR.
 
 ## License
 
-Attribution-NonCommercial 4.0 International [CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
+Attribution-NonCommercial 4.0 International ![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
 
 [More info](https://creativecommons.org/licenses/by-nc/4.0/)
 
