@@ -20,6 +20,11 @@ Content quick-links:
 
 ![Fibbo_clock](/images/fibbo_clock.jpg)
 
+
+- Developer Portfolio.
+
+You can find some of my projects and code samples at my GitHub profile as [JACONSTA](https://github.com/jaconsta)
+
 ---
 
 ## My book
@@ -30,9 +35,19 @@ Content quick-links:
 - url: [djangorest.jaconsta.com](https://djangorest.jaconsta.com)
 - code_sample: [github.com/jaconsta/rest-course-api](https://github.com/jaconsta/rest-course-api)
 
-Currently you can find Chap1.
+Currently you can find *Chap1*.
 
-And more comming
+Expected Content.
+
+* **Chap 1.** Basic REST concepts and start setting the environment.
+* **Chap 2.** Which is the expected behaviour of the app. Introduction to test cases.
+* **Chap 3.** Planned architecture and design. Start coding the first endpoints (Models, serializers, controllers).
+* **Chap 4.** A more graphical approach to test our endpoints and to present our endpoints to the world. Introduction to Swagger.
+* And more planned... More complex endpoints, Initial data (fixtures), Deploying...
+
+This book is written in _Spanish_.
+
+If you have any suggestions be sure to [contact_me](/contact).
 
 ---
 
@@ -41,7 +56,7 @@ And more comming
 **Development**
 
 <i class="devicon-python-plain"></i> 3.X.
-<i class="devicon-django-plain-wordmark colored"></i> Django with django-rest
+<i class="devicon-django-plain-wordmark colored"></i> Django with django-rest / Flask / AsyncIO
 
 <i class="devicon-go-line colored"></i> Golang
 

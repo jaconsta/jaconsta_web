@@ -4,3 +4,6 @@
 [submodule "layouts/fiboclock"]
 	path = layouts/fiboclock
 	url = https://github.com/jaconsta/fibonacci_clock_web.git
+[submodule "lib/ftp_uploader"]
+	path = lib/ftp_uploader
+	url = https://github.com/jaconsta/ftp_uploader.git
