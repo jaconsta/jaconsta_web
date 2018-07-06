@@ -1,8 +1,8 @@
 ---
-title: "A tool for uploading static html files."
+title: "A tool for uploading static html files"
 date: 2018-07-05T10:53:38-05:00
 draft: false
-tags: ["tools", "application"]
+tags: ["tools", "application", "python", "ftp"]
 ---
 
 This site is created using a **static site generator** called [hugo](https://gohugo.com). There are many others, few example
