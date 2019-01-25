@@ -25,6 +25,32 @@ url = "/blog/"
 
 [[menu.main]]
 weight = 4
+name = "Portfolio"
+identifier = "portfolio"
+url = "/portfolio/"
+  [[menu.main]]
+  weight = 1
+  name = "Trimmer"
+  url = "/portfolio/trimmer"
+  parent = "portfolio"
+  [[menu.main]]
+  weight = 2
+  name = "Pomelo"
+  url = "/portfolio/pomelo"
+  parent = "portfolio"
+  [[menu.main]]
+  weight = 3
+  name = "Rest Book"
+  url = "/portfolio/rest_book"
+  parent = "portfolio"  
+  [[menu.main]]
+  weight = 4
+  name = "Creative labs"
+  url = "/portfolio/fiboclock"
+  parent = "portfolio"
+
+[[menu.main]]
+weight = 5
 name = "Contact"
 url = "/contact/"
 

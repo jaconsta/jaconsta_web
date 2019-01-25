@@ -8,7 +8,12 @@ The process create a wordpress plugin is documented here.
 
 https://codex.wordpress.org/Plugins
 
-However...
+With this steps you can create a React app within a Wordpress admin site.
+
+Worpress is not dessigned to be friendly with Javascript libraries. 
+So you might need some additional tricks to make this work correctly.
+Consider using the tools PHP provides you.
+But this could help you to visualize information without much touble.
 
 **1st Have an installed version of wordpress**
 
