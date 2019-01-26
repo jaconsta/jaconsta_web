@@ -4,24 +4,31 @@ date: 2018-04-29T11:57:35-05:00
 draft: false
 ---
 
-{{% summary %}}
-You can also find me through social networks.
- 
-Linked-in [javierconstain](https://co.linkedin.com/in/javierconstain)
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+<link rel="stylesheet" href="/css/form.css">
 
-Twitter [jaconsta](https://twitter.com/jaconsta)
+{{% summary %}}
+Contact me through social networks.
+
+<i class="fa fa-linkedin"></i>
+[javierconstain](https://co.linkedin.com/in/javierconstain)
+
+<i class="fa fa-twitter"></i>
+[jaconsta](https://twitter.com/jaconsta)
 
 {{% /summary %}}
 
-<link rel="stylesheet" href="/css/form.css">
+I'm currently located in Bogotá - Colombia
 
-Let's talk!
+## Let's talk!
 
-I recommend the social networks. -- >
+You can send me an email or a message through the form bellow.
+though I recommend the social networks listed above.
 
 ### Email
 
-[javier@jaconsta.com](mailto://javier@jaconsta.com)
+<button id='emailButton' onclick="showEmail()">Click me</button>
+<span id="emailField"></span>
 
 ### Leave a message
 
@@ -49,5 +56,6 @@ I recommend the social networks. -- >
 			</div>
 		</div>
 	</div>
-</form>	
+</form>
 
+<script type="text/javascript" src="/js/contact.js"></script>

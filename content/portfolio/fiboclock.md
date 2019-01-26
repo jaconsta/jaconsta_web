@@ -17,18 +17,18 @@ Here is a live example:
 		height: 300px;
 	}
 </style>
-<iframe class="fiboclock_frame" src="/fiboclock/"></iframe> 
+<iframe class="fiboclock_frame" src="/fiboclock/"></iframe>
 
 Remember the fibonacci equation is the following `f(n) = f(n-1) + f(n-2)`.
 So it's sequence start like this.
 
 ```
-fib(4) = [1 , 1, 2, 3, 5] 
+fib(4) = [1 , 1, 2, 3, 5]
 ```
 
-Then if we where to represent this first numbers on a equivalent square. 
+Then if we where to represent this first numbers on a equivalent square.
 
-Assume each square's side has the f(n) length. We could stack them together and form the 
+Assume each square's side has the f(n) length. We could stack them together and form the
 beautiful spiral you start to see there... And it can go beyond to the infinite.
 
 ```
@@ -43,12 +43,11 @@ Do you like it?
 What do the colors mean?
 
  - Yellow: Neither block is marked. Ex: 00:00 hrs
- - Red: These blocks sum the minutes times 5.
- - Blue: Are equivalent for the current hour
- - Brown: When Red a Blue supperpose on the same square, the result color is this one.
+ - Red: These blocks sum the minutes times 5. [5, 10, 15, 20, ..., 55]
+ - Blue: Are equivalent for the current hour 1 ~ 11
+ - Brown: When Red and Blue overlap on the same square, the result color is this one.
 
 Watch it on full screen [here](/fiboclock/)
 
 If you refresh the page, you might notice that some squares change their color, though the total time of the clock
 is still correct! That's another beauty trick of this clock.
-
