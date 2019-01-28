@@ -1,5 +1,5 @@
 ---
-title: "Trimmer"
+title: "Catena"
 date: 2019-01-25T11:57:35-05:00
 draft: false
 ---
@@ -9,13 +9,13 @@ draft: false
   }
 </style>
 {{% summary %}}
-![trimmer_logo](/images/trigger_logo.png)
+![catena_logo](/images/catena_logo.png)
 {{% /summary %}}
 
 > 👩‍💻🚶| 🚶‍♀️🚶🚶🚶‍♀️🚶‍♀️🚶‍♀️🚶🚶🚶🚶...🚶‍♀️ 😫
 ---
 
-Stop getting yourself into eternal queues. Wait how you please with Trimmer.
+Stop getting yourself into eternal queues. Wait how you please with Catena.
 
 And provide the same pleasure to your customers.
 
@@ -32,13 +32,13 @@ moment to connect.
 
 ## As a customer
 
-Claim the company to use **trimmer** to ease your waiting times on the queue.
+Claim the company to use **catena** to ease your waiting times on the queue.
 
 Download the Mobile app (iOS and Android) register to the company or
 establishment and request a turn.
 
 Then instead of waiting for your turn to come. You can go have a coffee or go
-to another place with **trimmer** and request a new turn. You are free to
+to another place with **catena** and request a new turn. You are free to
 manage your waiting time as you wish, you aren't forced to just wait.
 
 ---

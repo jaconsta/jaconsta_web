@@ -6,7 +6,7 @@ draft: false
 
 Quick access to the portfolio projects:
 
- * [Trimmer](/portfolio/trimmer)
+ * [Catena](/portfolio/catena)
  * [Pomelo](/portfolio/pomelo)
  * [Django rest book](/portfolio/rest_book)
  * [Creative labs. Fibbonacci clock](/portfolio/fiboclock)

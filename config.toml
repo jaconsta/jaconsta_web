@@ -30,8 +30,8 @@ identifier = "portfolio"
 url = "/portfolio/"
   [[menu.main]]
   weight = 1
-  name = "Trimmer"
-  url = "/portfolio/trimmer"
+  name = "Catena"
+  url = "/portfolio/catena"
   parent = "portfolio"
   [[menu.main]]
   weight = 2
