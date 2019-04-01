@@ -1,6 +1,6 @@
 ---
 title: "Setting PostgreSQL using docker "
-date: 2018-04-29T19:09:51-05:00
+date: 2019-02-15T19:09:51-05:00
 draft: false
 tags: ["postgresql", "docker", "local"]
 ---
