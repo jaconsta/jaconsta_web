@@ -8,6 +8,8 @@ Quick access to the portfolio projects:
 
  * [Catena](/portfolio/catena)
  * [Pomelo](/portfolio/pomelo)
+ * [Webmarks](/portfolio/webmarks)
+ * [Sentiment Analysis](/portfolio/sentiment_analysis)
  * [Django rest book](/portfolio/rest_book)
  * [Creative labs. Fibbonacci clock](/portfolio/fiboclock)
 

@@ -7,6 +7,7 @@ theme = "crab"
 description = "Developer, engineer, entrepreneur."
 logoimage = "images/gecko_logo_r_120.png"
 copyright = " - jaconsta _-_ CO _-_ \u00A9 CC BY-NC 4.0"
+google_analytics = "UA-000-1"
 
 [[menu.main]]
 weight = 1
@@ -39,12 +40,22 @@ url = "/portfolio/"
   url = "/portfolio/pomelo"
   parent = "portfolio"
   [[menu.main]]
-  weight = 3
+  weight = 4
+  name = "Webmarks"
+  url = "/portfolio/webmarks"
+  parent = "portfolio"
+  [[menu.main]]
+  weight = 5
+  name = "Sentiment analysis"
+  url = "/portfolio/sentiment_analysis"
+  parent = "portfolio"
+  [[menu.main]]
+  weight = 6
   name = "Rest Book"
   url = "/portfolio/rest_book"
   parent = "portfolio"
   [[menu.main]]
-  weight = 4
+  weight = 7
   name = "Creative labs"
   url = "/portfolio/fiboclock"
   parent = "portfolio"

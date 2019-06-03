@@ -43,7 +43,7 @@ manage your waiting time as you wish, you aren't forced to just wait.
 
 ---
 
-**Wait a second!!!** There's no link, page or application yet!!! 😶😶😶
+**Wait a second!!!** There's no link, page or application yet!!! &#x1F636;&#x1F636;&#x1F636;
 
 This is currently a work in progress... It requires many technologies linked
 and working together for you to have the best experience. If what you read
