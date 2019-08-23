@@ -11,7 +11,7 @@ draft: false
 Contact me through social networks.
 
 <i class="fa fa-linkedin"></i>
-[javierconstain](https://co.linkedin.com/in/javierconstain)
+[javierconstain](https://www.linkedin.com/in/javierconstain)
 
 <i class="fa fa-twitter"></i>
 [jaconsta](https://twitter.com/jaconsta)

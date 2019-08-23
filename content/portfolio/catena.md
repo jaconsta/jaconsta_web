@@ -9,7 +9,7 @@ draft: false
   }
 </style>
 {{% summary %}}
-![catena_logo](/images/catena_logo.png)
+![catena_logo](/images/catena_logo_256.png)
 {{% /summary %}}
 
 > 👩‍💻🚶| 🚶‍♀️🚶🚶🚶‍♀️🚶‍♀️🚶‍♀️🚶🚶🚶🚶...🚶‍♀️ 😫

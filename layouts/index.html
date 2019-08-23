@@ -8,20 +8,116 @@
 
       <title>{{ .Title }} - {{ .Site.Title }}</title>
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css.map">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css.map" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
 
       <link rel="stylesheet" href="{{ .Site.BaseURL }}css/home.css">
       <link rel="stylesheet" href="{{ .Site.BaseURL }}css/cookie_consent.css">
       <style>
       .notification.is-primary.is-gecco {
-       background-color:#1da8be;
-       color:#fff
+        background-color:#1da8be;
+        color:#fff
       }
-
+      .is-gecco {
+        color: #1da8be;
+      }
+      .is-green {
+        color: #009e6c;
+      }
       .is-second {
         background-color:#f26522;
-       color:#fff
+        color:#fff;
+      }
+      .projects-content {
+        display: flex;
+        flex-direction: column;
+      }
+      .projects-content .content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
+        margin-bottom: 0px;
+      }
+
+      .projects-content .content .title {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 20%;
+        min-width: 15rem;
+        margin-bottom: 0px;
+      }
+      .projects-content .content .subtitle {
+        padding: 4rem 2rem 2rem 1rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 80%;
+        max-width: 60rem;
+      }
+      .projects-content .content:nth-child(odd) .title {
+        margin-right: 10px;
+      }
+      .projects-content .content:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+      .projects-content .content:nth-child(even) .title {
+        margin-left: 10px;
+      }
+      .strenght-column {
+        min-height: 15rem;
+        padding: 3rem;
+      }
+      .strenght-column:nth-child(3n+1), .strenght-column:nth-child(3n+2) {
+        border-bottom: 1px solid #ffc8ae;
+      }
+      .strenght-column:nth-child(2n+1) {
+        border-right: 1px solid #ffc8ae;
+      }
+      .project-image {
+        object-fit: cover;
+        object-position: 100% 0;
+        height: 250px;
+        width: 100%;
+      }
+      .watering-image {
+        object-position: 0 bottom;
+      }
+      .catena-image {
+        object-position: 70% 80%;
+        object-fit: none;
+      }
+      .projects-content a.button {
+        background-color: #009e6c;
+      }
+      @media(max-width: 750px) {
+        .projects-content .content {
+          flex-direction: column;
+        }
+        .projects-content .content:nth-child(even) {
+          flex-direction: column;
+        }
+        .projects-content .content:nth-child(even) .title {
+          margin-left: 0px;
+        }
+        .projects-content .content .subtitle {
+          padding: 3rem 1rem 1rem 2rem;
+        }
+        .strenght-column {
+          box-shadow: inset 0 0.1em rgba(0, 0, 0, 0.075);
+        }
+        .strenght-column:nth-child(2n+1) {
+          border-right: 0px;
+        }
+        .strenght-column:nth-child(3n+2), .strenght-column:nth-child(3n+1) {
+          border-bottom: 0px;
+        }
+        .strenght-column:first-child {
+          box-shadow: inset 0 0;
+        }
+        .project-image {
+          display: none;
+        }
       }
       </style>
 
@@ -67,37 +163,53 @@
 
           <section class="section">
             <div class="container">
-              <h1 class="title">Our expertise</h1>
+              <h1 class="title is-gecco">Strenghts</h1>
 
 
-              <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
-                  <div class="tile">
-                    <div class="tile is-parent is-vertical">
-                      <article class="tile is-child notification is-second">
-                        <p class="title">Marketing</p>
-                        <p class="subtitle"></p>
-                      </article>
+              <div class="columns is-multiline is-mobile">
+                <div class="strenght-column column is-half-tablet is-full-mobile">
+                  <article class="media">
+                    <div class="media-left title is-green"><i class="fas fa-cloud"></i></div>
+                    <div class="media-content">
+                      <p class="subtitle">Cloud development</p>
+                      <p>
+                        Working on cloud applications that connect with multiple devices:
+                        Servers, web, mobile, IOT.
+                        For great integration and communications.
+                        I can work on servers, clients, hardware, mobile...
+                        and create apps that communicate along.
+                        Including localization, real time, streams and more.
+                      </p>
                     </div>
-                    <div class="tile is-parent">
-                      <article class="tile is-child notification is-second">
-                        <p class="title">Environment</p>
-                        <p class="subtitle"></p>
-                        <!--figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/640x480.png">
-                        </figure-->
-                      </article>
+                  </article>
+                </div>
+                <div class="strenght-column column is-half-tablet is-full-mobile">
+                  <article class="media">
+                    <div class="media-left title is-green"><i class="fas fa-chess-knight"></i></div>
+                    <div class="media-content">
+                      <p class="subtitle">Development coaching</p>
+                      <p>
+                        Teams must grow as individuals and as a group.
+                        Multiple skills must be trained and the combination of individual
+                        skills must lead to a better team performance, that excels
+                        each members capabilities.
+                        With my experience and broad knowledge on multimple projects and
+                        using multiple technologies help to articulate and coach the team for success.
+                      </p>
                     </div>
-                    <div class="tile is-parent">
-                      <article class="tile is-child notification is-second">
-                        <p class="title">Accounting / Finance</p>
-                        <p class="subtitle"></p>
-                        <!--figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/640x480.png">
-                        </figure-->
-                      </article>
-                    </div>
-                  </div>
+                  </article>
+                </div>
+                <div class="strenght-column column is-half-tablet  is-full-mobile">
+                  <article class="media">
+                    <div class="media-left title is-green"><i class="fas fa-project-diagram"></i></div>
+                    <div class="media-content">
+                      <p class="subtitle">Product creation</p>
+                      <p>
+                        Taking a product from a prototype to production-ready requires many
+                        coordinated steps and validations. Understand the difference between
+                        each other, and the best way to react the market for success.
+                      </p>
+                  </article>
                 </div>
               </div>
 
@@ -107,44 +219,57 @@
 
           <section class="section">
             <div class="container">
-              <h1 class="title">Our way</h1>
+              <h1 class="title is-gecco">Recent projects</h1>
 
 
-              <div class="tile is-ancestor">
-                <div class="tile is-vertical is-8">
-                  <div class="tile">
-                    <div class="tile is-parent is-vertical">
-                      <article class="tile is-child notification is-primary is-gecco ">
-                        <p class="title">Cloud orchestration</p>
-                        <p class="subtitle"></p>
-                      </article>
-                    </div>
-                    <div class="tile is-parent is-verticalt">
-                      <article class="tile is-child notification is-primary is-gecco">
-                        <p class="title">IOT</p>
-                        <p class="subtitle"></p>
-                      </article>
-                    </div>
-                    <div class="tile is-parent">
-                      <article class="tile is-child notification is-primary is-gecco">
-                        <p class="title">Data intelligence</p>
-                        <p class="subtitle"></p>
-                      </article>
-                    </div>
+              <div class="projects-content">
+                <div class="content">
+                  <div class="title">
+                    <img class="project-image watering-image" src="{{ .Site.BaseURL }}images/unsplash/photo-watering-1.jpeg">
+                  </div>
+                  <div class="subtitle">
+                    <h3>Pomelo</h3>
+                    <p>Keep your garden plants watered.</p>
+                    <a class="button is-primary" href="https://github.com/jaconsta/aquas_web">Learn more</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <img class="project-image catena-image" src="{{ .Site.BaseURL }}images/unsplash/photo-queue-1.jpeg">
+                  </div>
+                  <div class="subtitle">
+                    <h3>Catena</h3>
+                    <p>Handle people queues without stress</p>
+                    <a class="button is-primary" href="https://catena.jaconsta.com/">Learn more</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <img class="project-image" src="{{ .Site.BaseURL }}images/unsplash/photo-marks-1.jpeg">
+                  </div>
+                  <div class="subtitle">
+                    <h3>Webmarks</h3>
+                    <p >Your favorite sites, your content</p>
+                    <a class="button is-primary" href="https://webmarks.jaconsta.com/">Learn more</a>
                   </div>
                 </div>
               </div>
-              <div class="tile is-ancestor">
-                <div class="tile is-parent is-8">
-                  <article class="tile is-child notification is-danger">
-                    <p class="title">Innovation through our veins.</p>
-                    <p class="subtitle">Call it: Blockchain, GRPC, API, Management...</p>
-                    <div class="content">
-                    </div>
-                  </article>
-                </div>
-              </div>
 
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="container">
+              <h1 class="title is-gecco">Latest blog posts</h1>
+              <div class="content">
+                <ul>
+                  {{ range first 5  .Pages }}
+                      <li>
+                          <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+                      </li>
+                  {{ end }}
+                </ul>
+              </div>
             </div>
           </section>
 
