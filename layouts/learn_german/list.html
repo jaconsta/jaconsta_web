@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<h1>Learn german vocabulary</h1>
+
+{{ range sort .Paginator.Pages }}
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+{{ end }}
+
+{{ partial "footer.html" . }}
