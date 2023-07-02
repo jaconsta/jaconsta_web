@@ -1,6 +1,6 @@
 ---
 title: "Does good code even matter?"
-date: 2018-04-29T19:09:51-05:00
+date: 2023-06-06T19:09:51-05:00
 draft: false
 ---
 
