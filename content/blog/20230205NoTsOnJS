@@ -1,0 +1,42 @@
+---
+title: "Javascript echosystem is chaos, but it is ok."
+date: 2023-0-05T19:09:51-05:00
+draft: false
+---
+
+# I believe the JS community loves to shoot itself in the foot.
+
+Probably some heard the message, at the begining of 2023, from one of the TS creators recommending to not always set the return type explicitly in
+in the function definition, and that triggered some very good developers that are against this recommendation.
+(BTW TS: Typescript, JS or js: javascript)
+
+JS is a language of constant changing, enormous growth and one that I am deeply grateful for all the good it has
+brought to my life and the world in general. The fact that it set itself to be the language of the browsers (the internet)
+and later of the servers (NodeJS) is a true miracle.
+
+Something to consider, on it's simplicity JS is a very hard language to understand. The async / promise flow, the callstack,
+the implicity type definition, context binding, functional (or better said procedural) programming / OOP paradigns / prototyping.
+The core language developers have made an amazing job. Not to forget the good documentation around for it's core libraries.
+
+But, core JS itself many years ago stopeped being the sole thing you need to learn to be productive with the language.
+And developers tend to forget that on top of it, one must also learn about front end or backend frameworks,
+protocol connections, integration tools and many other packages. Additional linters, testing, package managers, parsers.
+
+For me something is clear, V8 was the biggest innovation that made the language relevant. Npm, made the community shine.
+
+For it to grow it have faced many changes along the years, new libraries, new paradigms, new contributors.
+And I kinda see a single pattern, every new iteration have tried to make the previous simpler to implement.
+
+That's a reason server componets are making a weird comeback in the development work.
+
+PHP (Full server) -> JS (Full client) -> server JS (Server components) + small client JS.
+
+Many years ago, the web frameworks were the ones in charge of the client, and it was in charge of rendering the module
+components. Now the client wants to handle the pre-render of it's own components server side and compliment them with
+the minimal client side actions.
+
+It has never been away of controversies. Remember IO.js? Current arguments between frontend libraries against each other?
+
+Javascript, in my opinion has never been harder to learn, but at the same time it has never be in better shape to learn.
+Newcommers should feel excited from the opportunities the language has to offer and feel joy of they innovations they have
+at face palm.
