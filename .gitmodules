@@ -7,3 +7,6 @@
 [submodule "lib/ftp_uploader"]
 	path = lib/ftp_uploader
 	url = https://github.com/jaconsta/ftp_uploader.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke

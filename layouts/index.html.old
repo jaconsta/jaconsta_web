@@ -3,8 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
     <meta charset="utf-8">
-    {{ .Hugo.Generator }}
-
 
       <title>{{ .Title }} - {{ .Site.Title }}</title>
 
@@ -141,7 +139,6 @@
 
       </div>
 
-      {{ partial "menu.html" .Site.Menus.main }}
 
       <div id="content">
 
@@ -274,4 +271,3 @@
           </section>
 
 
-{{ partial "footer.html" . }}

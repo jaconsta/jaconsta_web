@@ -7,7 +7,7 @@ draft: false
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
 <link rel="stylesheet" href="/css/form.css">
 
-{{% summary %}}
+{{/* % summary % */}}
 Contact me through social networks.
 
 <i class="fa fa-linkedin"></i>
@@ -16,7 +16,7 @@ Contact me through social networks.
 <i class="fa fa-twitter"></i>
 [jaconsta](https://twitter.com/jaconsta)
 
-{{% /summary %}}
+{{/* % /summary % */}}
 
 I'm currently located in Bogotá - Colombia
 

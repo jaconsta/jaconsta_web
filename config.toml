@@ -1,13 +1,7 @@
 baseURL = "https://jaconsta.com/"
 languageCode = "en-us"
 title = "Jaconsta"
-theme = "crab"
 
-[params]
-description = "Developer, engineer, entrepreneur."
-logoimage = "images/gecko_logo_r_120.png"
-copyright = " - jaconsta _-_ CO _-_ \u00A9 CC BY-NC 4.0. Images by Unsplash. "
-google_analytics = "UA-70918774-1"
 
 [[menu.main]]
 weight = 1

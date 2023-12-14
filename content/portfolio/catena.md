@@ -8,9 +8,9 @@ draft: false
     height: 150px
   }
 </style>
-{{% summary %}}
+{{/* % summary */ %}}
 ![catena_logo](/images/catena_logo_256.png)
-{{% /summary %}}
+{{/* % /summary */ %}}
 
 > 👩‍💻🚶| 🚶‍♀️🚶🚶🚶‍♀️🚶‍♀️🚶‍♀️🚶🚶🚶🚶...🚶‍♀️ 😫
 ---

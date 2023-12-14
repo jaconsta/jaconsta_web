@@ -1,0 +1,7 @@
+{{ $colour := .Get 0 | safeCSS }}
+{{ $text := .Get 1 }}
+  <span style="
+      color: {{ $colour }};
+      ">
+      {{$text}}</span>
+

@@ -60,6 +60,12 @@ To compile all your files for publishing.
 $ hugo
 ```
 
+#### Or with container
+
+```
+$ nerdctl run --rm -it -v $(pwd):/src -p 8080:8080 --name lugo klakegg/hugo serve -p 8080
+```
+
 ## Colaborate
 
 Sure! Submit a PR.
