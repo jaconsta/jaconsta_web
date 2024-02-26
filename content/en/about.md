@@ -52,3 +52,8 @@ Programming languages I am most proficient with and interested in.
 | ![](https://img.shields.io/badge/Web_sockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)| | ![](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) |
 | more... | | |
 
+
+## 💰 ➜ Credits for you
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%202.svg)](https://www.digitalocean.com/?refcode=96d869a8fbb9&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+

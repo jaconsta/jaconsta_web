@@ -24,7 +24,7 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
   name = 'linkedin'
   label= 'LinkedIn'
-  url= 'https://de.linkedin.com/in/javierconstain'
+  url= 'https://de.linkedin.com/in/jaconsta'
 [[params.ananke_socials]]
   name= 'twitter'
   url= 'https://twitter.com/jaconsta'
